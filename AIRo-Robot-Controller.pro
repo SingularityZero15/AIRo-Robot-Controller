@@ -10,10 +10,12 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    mycombobox.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    mycombobox.h
 
 FORMS += \
     mainwindow.ui

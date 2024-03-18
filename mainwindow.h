@@ -17,6 +17,9 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_comboBox_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
